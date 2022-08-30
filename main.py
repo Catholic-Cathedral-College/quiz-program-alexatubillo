@@ -1,4 +1,5 @@
 #Ask the user what is this kind of graph
+
 graph = input("It is a graphical representation of data:")
 if graph == "bar graph":
   print("Correct!")
@@ -25,11 +26,26 @@ if graph == "histograms":
 else:
   print("you should study the meanings of the different graphs")
 
-#Ask the user to add how many people answer correct
+#Ask the user if its true or false
+graph = input("Bargraph is a graphical representation of data")
+if graph == "true":
+    print("correct")
+  
+       
 
+  #Ask the user to add the people who got correct and wrong answers to find how many people answers the quiz.
+correct = 16
+wrong  = 9
 
+answers = correct + wrong
 
+# print how many people answers the quiz
+print("The people who answer the quiz are:{}".format(answers))
 
-
-
+#print some math statements
+print("5 x 2 ={}".format(5 * 2))
+print("5 + 7 - 2 ={}".format(5 + 7 - 2))
+print("2 ** 6 + 9 ={}".format(2 ** 6 + 9))
+print("6 / 2 + 7 ={}".format(6 / 2 + 7))
+print("3 ** 9 ={}".format(3 ** 9))
 
