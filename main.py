@@ -1,7 +1,7 @@
 #Ask the user what is this kind of graph
-
-print("You need to Identify what kind of graph it is.")
+graph = input ("You need to Identify what kind of graph it is, Please enter to see the question.")
 print()
+
 correct = 0
 wrong  = 0
 
@@ -43,7 +43,7 @@ else:
   print()
 #Ask the user if its true or false
 
-print("true or false")
+graph = input ("true or false, Please enter to see question.")
 print()
 
 graph = input("A graph needs to have a title.")
@@ -60,10 +60,10 @@ if graph == "true":
 elif graph == "false":
     print("Wrong")
     wrong += 1
-    print()
+    
 #Ask the user the thing that graph must have
-
-print("you need to enter one thing that the graph must have.")
+print()
+graph = input ("one thing that the graph must have, please enter to see question.")
 print()
 
 graph = input("What are the things that graph must have?")
@@ -86,7 +86,7 @@ else:
   print("wrong!")
   wrong += 1
   print()
-#Ask user to add the number of the people who got correct and wrong
+#Ask user to add the number of the correct and wrong answers
 
 print("This are the people who answer my quiz.")
 
@@ -94,9 +94,10 @@ correct += 1
 wrong += 1
 answers = correct + wrong
 
-#Ask user to print the total number of people who answer
-print("The people who answer the quiz are:{}".format(answers))
+#Ask user to print the total number of correct and wrong answers
+print("The total number of the correct and wrong answer are:{}".format(answers))
 print("Thank you for answering the quiz :)")
+print()
 
 #print some math statements
 print("5 x 2 ={}".format(5 * 2))
