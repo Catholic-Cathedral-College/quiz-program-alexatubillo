@@ -1,5 +1,5 @@
 #Ask the user what is this kind of graph
-graph = input ("You need to Identify what kind of graph it is, Please enter to see the choices and questions.")
+print ("You need to Identify what kind of graph it is, Please enter to see the choices and questions.")
 print()
 
 graphs = ["- line graph", "- bar graph", "- histograms", "- piecharts", "- scatterplots"]
@@ -52,27 +52,27 @@ else:
   print()
 #Ask the user if its true or false
 
-graph = input (" -true or false, Please enter to see questions.-")
+print (" -true or false, Please enter to see questions.-")
 print()
 
 graph = input("A graph needs to have a title.")
 if graph == "true":
   print("correct")
   correct += 1
-elif graph == "false":
+else:
   print("Wrong")
   wrong += 1
 graph = input("a graph needs to have scales and axes")
 if graph == "true":
   print("correct")
   correct += 1
-elif graph == "false":
+else:
   print("Wrong")
   wrong += 1
     
 #Ask the user the thing that graph must have
 print()
-graph = input ("-one thing that the graph must have, please enter to see question.-")
+print ("-one thing that the graph must have, please enter to see question.-")
 print()
 
 graph = input("Give one thing that graph must have.")
@@ -99,8 +99,7 @@ else:
 
 print("This are the people who answer my quiz.")
 
-correct += 1
-wrong += 1
+
 answers = correct + wrong
 
 #Ask user to print the total number of correct and wrong answers
