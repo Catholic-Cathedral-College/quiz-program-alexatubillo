@@ -10,7 +10,7 @@ for graph in graphs:
 correct = 0
 wrong  = 0
 
-graph = input("It is a graphical representation of data:")
+graph = input("1. It is a graphical representation of data:")
 if graph == "bar graph":
   print("Correct!")
   correct += 1
@@ -18,7 +18,7 @@ else:
   print ("wrong")
   wrong += 1
   print()
-graph = input("It is a short line which is drawn on a plane connecting the pionts on x and y coordinates.")
+graph = input("2. It is a short line which is drawn on a plane connecting the pionts on x and y coordinates.")
 if graph == "line graph":
   print("Correct")
   correct += 1
@@ -26,7 +26,7 @@ else:
   print("you put the wrong graph")
   wrong += 1
   print()
-graph = input("It is a set of points plotted on a horizontal and vertical axes.")
+graph = input("3. It is a set of points plotted on a horizontal and vertical axes.")
 if graph == "scatter plots":
   print("great!")
   correct += 1
@@ -34,7 +34,7 @@ else:
   print("It is the wrong one!")
   wrong += 1
   print()
-graph = input("It is a circular statistical graphic, which is divided into slices to illustrate numerical proportion.")
+graph = input("4. It is a circular statistical graphic, which is divided into slices to illustrate numerical proportion.")
 if graph == "pie charts":
    print("Good job!")
    correct += 1
@@ -42,7 +42,7 @@ else:
   print("Wrong!")
   wrong += 1
   print()
-graph = input("It is a display of statistical information that uses rectangles to show the frequency of data items in successive numerical intervals of equal size.")
+graph = input("5. It is a display of statistical information that uses rectangles to show the frequency of data items in successive numerical intervals of equal size.")
 if graph == "histograms":
    print("Correct, Awesome!")
    correct += 1
@@ -55,14 +55,14 @@ else:
 print (" -true or false, Please enter to see questions.-")
 print()
 
-graph = input("A graph needs to have a title.")
+graph = input("6. A graph needs to have a title.")
 if graph == "true":
   print("correct")
   correct += 1
 else:
   print("Wrong")
   wrong += 1
-graph = input("a graph needs to have scales and axes")
+graph = input("7. a graph needs to have scales and axes")
 if graph == "true":
   print("correct")
   correct += 1
@@ -75,7 +75,7 @@ print()
 print ("-one thing that the graph must have, please enter to see question.-")
 print()
 
-graph = input("Give one thing that graph must have.")
+graph = input("8. Give one thing that graph must have.")
 if graph == "caption":
     print("you're rigth")
     correct += 1
@@ -99,14 +99,13 @@ else:
 
 print("This are the people who answer my quiz.")
 
-
 answers = correct + wrong
 
-#Ask user to print the total number of correct and wrong answers
+#Ask user to print the total number of correct and wrong answers and to
 print() 
 print("The total number of the correct answer are:{}".format(correct))
 print("The total number of the wrong answer are:{}".format(wrong))
-print("The total number of correct and wrong answers are:{}".format(answers))
+print("The total number of the questions are:{}".format(answers))
 print("Thank you for answering the quiz :)")                                                                      
 
 
