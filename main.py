@@ -2,7 +2,7 @@
 print ("You need to Identify what kind of graph it is, Please enter to see the choices and questions.")
 print()
 
-graphs = ["- line graph", "- bar graph", "- histograms", "- piecharts", "- scatterplots"]
+graphs = ["- line graph", "- bar graph", "- histograms", "- pie charts", "- scatterplots"]
 for graph in graphs:
      print(graph)
      print()
@@ -72,8 +72,13 @@ else:
     
 #Ask the user the thing that graph must have
 print()
-print ("-one thing that the graph must have, please enter to see question.-")
+print ("-one thing that the graph must have, choose in the choices which is the right one please enter to see question.-")
 print()
+
+graphs = ["- title", "- line ", "- scales", "- caption", "- axes", "- odd scales", "-many colours", "-data field", "-overload information"]
+for graph in graphs:
+     print(graph)
+     print()
 
 graph = input("8. Give one thing that graph must have.")
 if graph == "caption":
@@ -97,15 +102,15 @@ else:
   print()
 #Ask user to add the number of the correct and wrong answers
 
-print("This are the people who answer my quiz.")
+print("This are the total number of your correct and wrong answers:")
 
 answers = correct + wrong
 
-#Ask user to print the total number of correct and wrong answers and to
+#Ask user to print the total number of correct and wrong answers and questions.
 print() 
 print("The total number of the correct answer are:{}".format(correct))
 print("The total number of the wrong answer are:{}".format(wrong))
-print("The total number of the questions are:{}".format(answers))
+print("The total number of the correct and wrong answers/ questions are:{}".format(answers))
 print("Thank you for answering the quiz :)")                                                                      
 
 
